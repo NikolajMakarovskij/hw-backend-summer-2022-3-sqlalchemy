@@ -1,5 +1,6 @@
 
 import typing
+from typing import Optional
 from hashlib import sha256
 
 from sqlalchemy import select
