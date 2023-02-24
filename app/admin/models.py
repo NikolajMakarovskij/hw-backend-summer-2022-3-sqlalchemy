@@ -22,9 +22,7 @@ class Admin:
 
 
 class AdminModel(db):
-    class AdminModel(db):
         __tablename__ = "admins"
-
         id = Column(BigInteger, primary_key=True)
         email = Column(String, unique=True)
         password = Column(String)
