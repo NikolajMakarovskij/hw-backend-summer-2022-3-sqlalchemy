@@ -1,5 +1,5 @@
 aiohttp==3.8.1
-aiohttp-apispec
+aiohttp-apispec==2.2.3
 aiohttp-session==2.11.0
 aioresponses==0.7.3
 aiosignal==1.2.0
