@@ -15,6 +15,7 @@ def validate_answer(answers: list):
     if count_ans < 2:
         raise ValidationError("У вопроса только один ответ.")
 
+
 class ThemeSchema(Schema):
     id = fields.Int(required=False)
     title = fields.Str(required=True)
